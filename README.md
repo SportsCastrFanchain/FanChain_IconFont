@@ -6,7 +6,11 @@ This repository contains the icon font used on FanChain websites and apps and co
 
 To use on a website, mirror the files, include the CSS file, and reference the glyphs included in the [FanChain Stamp Database](https://github.com/SportsCastrFanchain/FanChainStampDB).  
 
-Then you can include the glyphs in your page: <span class="icon-SEND"></span>
+Then you can include the glyphs in your page: 
+
+```
+	<span class="icon-SEND"></span>
+```	
 
 To use the generated font in an App, you can include the TTF file and reference the escape codes in the [FanChain Stamp Database](https://github.com/SportsCastrFanchain/FanChainStampDB)
 
