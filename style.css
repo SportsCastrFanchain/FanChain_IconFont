@@ -1,0 +1,516 @@
+@font-face {
+  font-family: 'FanChain_IconFont';
+  src:  url('fonts/FanChain_IconFont.eot?sdzwqm');
+  src:  url('fonts/FanChain_IconFont.eot?sdzwqm#iefix') format('embedded-opentype'),
+    url('fonts/FanChain_IconFont.ttf?sdzwqm') format('truetype'),
+    url('fonts/FanChain_IconFont.woff?sdzwqm') format('woff'),
+    url('fonts/FanChain_IconFont.svg?sdzwqm#FanChain_IconFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'FanChain_IconFont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-SEND:before {
+  content: "\e99f";
+}
+.icon-INSIGHTS:before {
+  content: "\e99c";
+}
+.icon-POPULAR:before {
+  content: "\e99d";
+}
+.icon-LIVE:before {
+  content: "\e99e";
+}
+.icon-CHOOSE:before {
+  content: "\e99b";
+}
+.icon-CASTSYNC:before {
+  content: "\e999";
+}
+.icon-CASTRDNA:before {
+  content: "\e99a";
+}
+.icon-BLOCK:before {
+  content: "\e998";
+}
+.icon-VERSUS:before {
+  content: "\e91f";
+}
+.icon-FANBET:before {
+  content: "\e96f";
+}
+.icon-BETS_COMPLETE:before {
+  content: "\e995";
+}
+.icon-BETS_CURRENT:before {
+  content: "\e996";
+}
+.icon-LEAVE:before {
+  content: "\e997";
+}
+.icon-BADMINTON:before {
+  content: "\e98e";
+}
+.icon-BOWLING:before {
+  content: "\e98f";
+}
+.icon-RACING:before {
+  content: "\e990";
+}
+.icon-FIGHTING:before {
+  content: "\e991";
+}
+.icon-BILLIARDS:before {
+  content: "\e992";
+}
+.icon-GOLF:before {
+  content: "\e993";
+}
+.icon-BOXING:before {
+  content: "\e98a";
+}
+.icon-HOCKEY:before {
+  content: "\e97f";
+}
+.icon-BASEBALL:before {
+  content: "\e980";
+}
+.icon-VOLLEYBALL:before {
+  content: "\e97e";
+}
+.icon-TENNIS:before {
+  content: "\e97c";
+}
+.icon-SOCCER:before {
+  content: "\e982";
+}
+.icon-BASKETBALL:before {
+  content: "\e981";
+}
+.icon-FOOTBALL:before {
+  content: "\e97d";
+}
+.icon-ESPORTS:before {
+  content: "\e97b";
+}
+.icon-KEYBOARD_SHOW:before {
+  content: "\e994";
+}
+.icon-KEYBOARD_HIDE:before {
+  content: "\e98b";
+}
+.icon-CART_ADD:before {
+  content: "\e903";
+}
+.icon-CART:before {
+  content: "\e985";
+}
+.icon-DASHBOARD:before {
+  content: "\e957";
+}
+.icon-GLOBAL:before {
+  content: "\e96d";
+}
+.icon-ACHIEVEMENTS:before {
+  content: "\e971";
+}
+.icon-HIGHLIGHTS:before {
+  content: "\e972";
+}
+.icon-FAV_FILLED:before {
+  content: "\e973";
+}
+.icon-FAV_EMPTY:before {
+  content: "\e975";
+}
+.icon-STAR_RATE:before {
+  content: "\e986";
+}
+.icon-LIST_VIEW:before {
+  content: "\e91b";
+}
+.icon-FANZ_CIRCLE:before {
+  content: "\e902";
+}
+.icon-FANZ:before {
+  content: "\e96b";
+}
+.icon-FANWALLET:before {
+  content: "\e947";
+}
+.icon-FANPAY:before {
+  content: "\e989";
+}
+.icon-FANPRIZES:before {
+  content: "\e984";
+}
+.icon-FANEXCHANGE:before {
+  content: "\e988";
+}
+.icon-MINT:before {
+  content: "\e976";
+}
+.icon-COLLAPSE:before {
+  content: "\e977";
+}
+.icon-EXPAND:before {
+  content: "\e978";
+}
+.icon-DONUT:before {
+  content: "\e979";
+}
+.icon-SHIPPING:before {
+  content: "\e983";
+}
+.icon-SPOTLIGHT:before {
+  content: "\e970";
+}
+.icon-SCAN_QR:before {
+  content: "\e96e";
+}
+.icon-QR:before {
+  content: "\e954";
+}
+.icon-EVENT:before {
+  content: "\e96a";
+}
+.icon-LOCK:before {
+  content: "\e929";
+}
+.icon-UNLOCK:before {
+  content: "\e967";
+}
+.icon-PRESENTATION:before {
+  content: "\e968";
+}
+.icon-TERMS:before {
+  content: "\e969";
+}
+.icon-DOCUMENT:before {
+  content: "\e965";
+}
+.icon-YOUTUBE:before {
+  content: "\e958";
+}
+.icon-TELEGRAM:before {
+  content: "\e95d";
+}
+.icon-MAGIC:before {
+  content: "\e95e";
+}
+.icon-VISIBILITY:before {
+  content: "\e95f";
+}
+.icon-MAINTAIN:before {
+  content: "\e963";
+}
+.icon-WALLET:before {
+  content: "\e953";
+}
+.icon-OFFERS:before {
+  content: "\e955";
+}
+.icon-INSTANT:before {
+  content: "\e956";
+}
+.icon-PERSONALIZE:before {
+  content: "\e950";
+}
+.icon-TRADE:before {
+  content: "\e952";
+}
+.icon-REPLAY:before {
+  content: "\e933";
+}
+.icon-HISTORY:before {
+  content: "\e97a";
+}
+.icon-TICKER:before {
+  content: "\e951";
+}
+.icon-COIN:before {
+  content: "\e94b";
+}
+.icon-MONEY:before {
+  content: "\e94c";
+}
+.icon-TIP:before {
+  content: "\e94d";
+}
+.icon-TIP_LEADER:before {
+  content: "\e94e";
+}
+.icon-EMBED:before {
+  content: "\e948";
+}
+.icon-OBS:before {
+  content: "\e949";
+}
+.icon-DOWNLOAD:before {
+  content: "\e94a";
+}
+.icon-SHARE:before {
+  content: "\e92b";
+}
+.icon-SHARE_ARROW:before {
+  content: "\e942";
+}
+.icon-FILTER:before {
+  content: "\e960";
+}
+.icon-GENDER_MALE:before {
+  content: "\e93f";
+}
+.icon-GENDER_FEMALE:before {
+  content: "\e93e";
+}
+.icon-GENDER_ALL:before {
+  content: "\e93d";
+}
+.icon-GENDER_NEUTRAL:before {
+  content: "\e961";
+}
+.icon-ADD_A_PHOTO:before {
+  content: "\e904";
+}
+.icon-MIC:before {
+  content: "\e906";
+}
+.icon-LEGAL:before {
+  content: "\e907";
+}
+.icon-MENU:before {
+  content: "\e909";
+}
+.icon-SEE_MORE:before {
+  content: "\e92a";
+}
+.icon-COMPLETE:before {
+  content: "\e905";
+}
+.icon-LINK:before {
+  content: "\e90a";
+}
+.icon-TEXTSMS:before {
+  content: "\e90b";
+}
+.icon-DELETE:before {
+  content: "\e910";
+}
+.icon-EMAIL:before {
+  content: "\e90c";
+}
+.icon-LAPTOP:before {
+  content: "\e90d";
+}
+.icon-MOBILE:before {
+  content: "\e90f";
+}
+.icon-NOTIFICATIONS:before {
+  content: "\e913";
+}
+.icon-ADD:before {
+  content: "\e916";
+}
+.icon-CLOSE:before {
+  content: "\e92d";
+}
+.icon-UP:before {
+  content: "\e94f";
+}
+.icon-BACK:before {
+  content: "\e917";
+}
+.icon-HIDE:before {
+  content: "\e900";
+}
+.icon-CONTINUE:before {
+  content: "\e918";
+}
+.icon-COMMENT:before {
+  content: "\e919";
+}
+.icon-LEADERBOARD:before {
+  content: "\e912";
+}
+.icon-PHONE:before {
+  content: "\e91a";
+}
+.icon-DISCOVER:before {
+  content: "\e914";
+}
+.icon-HELP:before {
+  content: "\e911";
+}
+.icon-INFO_CIRCLE:before {
+  content: "\e93c";
+}
+.icon-SETTINGS:before {
+  content: "\e915";
+}
+.icon-GOOGLE_AUTH:before {
+  content: "\e98c";
+}
+.icon-GOOGLE:before {
+  content: "\e98d";
+}
+.icon-FACEBOOK:before {
+  content: "\e91e";
+}
+.icon-TWITTER:before {
+  content: "\e91c";
+}
+.icon-INSTAGRAM:before {
+  content: "\e908";
+}
+.icon-LINKEDIN:before {
+  content: "\e95a";
+}
+.icon-REDDIT:before {
+  content: "\e95c";
+}
+.icon-MEDIUM:before {
+  content: "\e95b";
+}
+.icon-APPLE:before {
+  content: "\e91d";
+}
+.icon-GITHUB:before {
+  content: "\e959";
+}
+.icon-ANDROID:before {
+  content: "\e966";
+}
+.icon-BITCOIN_TALK:before {
+  content: "\e96c";
+}
+.icon-HOME:before {
+  content: "\e920";
+}
+.icon-FLAG:before {
+  content: "\e927";
+}
+.icon-TIX:before {
+  content: "\e92c";
+}
+.icon-TIX_ADD:before {
+  content: "\e974";
+}
+.icon-STATS:before {
+  content: "\e923";
+}
+.icon-TV:before {
+  content: "\e924";
+}
+.icon-DIGITAL_GIFT:before {
+  content: "\e926";
+}
+.icon-HEADSET:before {
+  content: "\e928";
+}
+.icon-CHAT:before {
+  content: "\e925";
+}
+.icon-FLIP_CAM:before {
+  content: "\e92e";
+}
+.icon-MUTE_MIC:before {
+  content: "\e92f";
+}
+.icon-SOUND_UP:before {
+  content: "\e945";
+}
+.icon-SOUND_DOWN:before {
+  content: "\e943";
+}
+.icon-SOUND_MUTE:before {
+  content: "\e944";
+}
+.icon-WIFI:before {
+  content: "\e934";
+}
+.icon-EDIT:before {
+  content: "\e935";
+}
+.icon-PROFILE:before {
+  content: "\e932";
+}
+.icon-CONTACTS:before {
+  content: "\e941";
+}
+.icon-VIEWER:before {
+  content: "\e936";
+}
+.icon-ACCOUNT_ALERT:before {
+  content: "\e964";
+}
+.icon-UNFOLLOW:before {
+  content: "\e922";
+}
+.icon-FOLLOW:before {
+  content: "\e921";
+}
+.icon-NEW_FANS:before {
+  content: "\e90e";
+}
+.icon-COMMUNITY:before {
+  content: "\e987";
+}
+.icon-END:before {
+  content: "\e938";
+}
+.icon-PLAY_ARROW:before {
+  content: "\e937";
+}
+.icon-PLAY_CIRCLE:before {
+  content: "\e93b";
+}
+.icon-PAUSE:before {
+  content: "\e931";
+}
+.icon-PAUSE_CIRCLE:before {
+  content: "\e940";
+}
+.icon-GO_LIVE:before {
+  content: "\e939";
+}
+.icon-PIP:before {
+  content: "\e901";
+}
+.icon-PIP_MID:before {
+  content: "\e93a";
+}
+.icon-PIP_FAT:before {
+  content: "\e946";
+}
+.icon-SPACER:before {
+  content: "\e930";
+}
+.icon-SPORTSCASTR:before {
+  content: "\e962";
+}
