@@ -25,7 +25,11 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
-            'send': '&#xe99f;',
+            'arrow_up': '&#xe9a2;',
+            'arrow_down': '&#xe9a3;',
+            'arrow_right': '&#xe9a0;',
+            'arrow_left': '&#xe9a1;',
+            'send': '&#xe900;',
             'insights': '&#xe99c;',
             'popular': '&#xe99d;',
             'live': '&#xe99e;',
@@ -147,8 +151,8 @@
             'chevron_up': '&#xe94f;',
             'back': '&#xe917;',
             'chevron_left': '&#xe917;',
-            'hide': '&#xe900;',
-            'chevron_down': '&#xe900;',
+            'hide': '&#xe901;',
+            'chevron_down': '&#xe901;',
             'continue': '&#xe918;',
             'chevron_right': '&#xe918;',
             'comment': '&#xe919;',
@@ -223,12 +227,12 @@
             'pause_circle_outline': '&#xe940;',
             'go_live': '&#xe939;',
             'videocam': '&#xe939;',
-            'pip': '&#xe901;',
+            'pip': '&#xe930;',
             'pip_mid': '&#xe93a;',
             'pip_fat': '&#xe946;',
-            'spacer': '&#xe930;',
-            'sportscastr': '&#xe962;',
-            'sc_logomark': '&#xe962;',
+            'spacer': '&#xe962;',
+            'sportscastr': '&#xe99f;',
+            'sc_logomark': '&#xe99f;',
           '0': 0
         };
         delete icons['0'];
