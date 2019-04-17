@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'FanChain_IconFont';
-  src:  url('fonts/FanChain_IconFont.eot?fhutda');
-  src:  url('fonts/FanChain_IconFont.eot?fhutda#iefix') format('embedded-opentype'),
-    url('fonts/FanChain_IconFont.ttf?fhutda') format('truetype'),
-    url('fonts/FanChain_IconFont.woff?fhutda') format('woff'),
-    url('fonts/FanChain_IconFont.svg?fhutda#FanChain_IconFont') format('svg');
+  src:  url('fonts/FanChain_IconFont.eot?5e0bv');
+  src:  url('fonts/FanChain_IconFont.eot?5e0bv#iefix') format('embedded-opentype'),
+    url('fonts/FanChain_IconFont.ttf?5e0bv') format('truetype'),
+    url('fonts/FanChain_IconFont.woff?5e0bv') format('woff'),
+    url('fonts/FanChain_IconFont.svg?5e0bv#FanChain_IconFont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -34,6 +34,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-DIAMOND:before {
+  content: "\e9a4";
+}
 .icon-ARROW_UP:before {
   content: "\e9a2";
 }

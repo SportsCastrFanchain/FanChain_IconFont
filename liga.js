@@ -25,6 +25,7 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'diamond': '&#xe9a4;',
             'arrow_up': '&#xe9a2;',
             'arrow_down': '&#xe9a3;',
             'arrow_right': '&#xe9a0;',
