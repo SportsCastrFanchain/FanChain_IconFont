@@ -1,15 +1,16 @@
 @font-face {
   font-family: 'FanChain_IconFont';
-  src:  url('fonts/FanChain_IconFont.eot?5e0bv');
-  src:  url('fonts/FanChain_IconFont.eot?5e0bv#iefix') format('embedded-opentype'),
-    url('fonts/FanChain_IconFont.ttf?5e0bv') format('truetype'),
-    url('fonts/FanChain_IconFont.woff?5e0bv') format('woff'),
-    url('fonts/FanChain_IconFont.svg?5e0bv#FanChain_IconFont') format('svg');
+  src:  url('fonts/FanChain_IconFont.eot?qk675u');
+  src:  url('fonts/FanChain_IconFont.eot?qk675u#iefix') format('embedded-opentype'),
+    url('fonts/FanChain_IconFont.ttf?qk675u') format('truetype'),
+    url('fonts/FanChain_IconFont.woff?qk675u') format('woff'),
+    url('fonts/FanChain_IconFont.svg?qk675u#FanChain_IconFont') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"], .material-icons {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'FanChain_IconFont' !important;
   speak: none;
@@ -34,20 +35,32 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-CAMERA:before {
+  content: "\e885";
+}
+.icon-BUCKS:before {
+  content: "\e888";
+}
+.icon-LANDSCAPE:before {
+  content: "\e887";
+}
+.icon-PORTRAIT:before {
+  content: "\e886";
+}
 .icon-DIAMOND:before {
-  content: "\e9a4";
+  content: "\e89a";
 }
 .icon-ARROW_UP:before {
-  content: "\e9a2";
+  content: "\e89b";
 }
 .icon-ARROW_DOWN:before {
-  content: "\e9a3";
+  content: "\e89c";
 }
 .icon-ARROW_RIGHT:before {
-  content: "\e9a0";
+  content: "\e89d";
 }
 .icon-ARROW_LEFT:before {
-  content: "\e9a1";
+  content: "\e89e";
 }
 .icon-SEND:before {
   content: "\e900";
@@ -268,7 +281,7 @@
 .icon-TICKER:before {
   content: "\e951";
 }
-.icon-COIN:before {
+.icon-CASH:before {
   content: "\e94b";
 }
 .icon-MONEY:before {
